@@ -33,6 +33,7 @@ sudo nano /etc/nginx/sites-available/default
 
 
 ---- once opened file add below -----
+
 server {
     listen 80;
     server_name 13.233.143.137;
@@ -66,6 +67,7 @@ sudo chmod -R 755 /home/ubuntu/rajinikanth-devops-kitchen/build
 sudo tail -f /var/log/nginx/error.log
 
 #Nginx Configuration Conflict:
+
 ls -l /etc/nginx/sites-enabled/    if not   sudo rm /etc/nginx/sites-enabled/default
 
 
@@ -80,6 +82,8 @@ namei -l /home/ubuntu/rajinikanth-devops-kitchen/build
 
 
 ---------- add permissions -----------
+
+
 sudo chmod -R 755 /home/ubuntu/rajinikanth-devops-kitchen/build
 
 sudo chown -R www-data:www-data /home/ubuntu/rajinikanth-devops-kitchen/build
